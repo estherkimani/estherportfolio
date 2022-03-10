@@ -5,10 +5,18 @@
 body{
   background-image: url(../images/small.jpg);
   background-size:cover;
+  background-repeat: no-repeat;
 }
 .box{
 
 }
-.list.li.a{
+.list li a {
   text-decoration: none;
+}
+.list li{
+  list-style: none;
+}
+nav{
+  text-align: right;
+  padding: 10px 20px;
 }
