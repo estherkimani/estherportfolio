@@ -1,8 +1,14 @@
 *{
-  padding:0px;
   margin: 0px;
-  }
-
+  padding: 0px;
+}
+body{
+  background-image: url(../images/small.jpg);
+  background-size:cover;
+}
 .box{
-  background: blue;
+
+}
+.list.li.a{
+  text-decoration: none;
 }
