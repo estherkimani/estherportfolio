@@ -8,8 +8,10 @@ body{
   background-size:cover;
   background-repeat: no-repeat;
 }
-.box{
-
+.home{
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
 .list li a {
   text-decoration: none;
