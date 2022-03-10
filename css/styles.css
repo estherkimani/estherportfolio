@@ -27,3 +27,12 @@ nav{
   height: 70px;
   display:block;
 }
+.Portfolio{
+  display: flex;
+  color: white;
+  margin: 40px;
+  padding: 20px;
+}
+.column{
+  margin: 20px;
+}
