@@ -13,7 +13,7 @@ body{
   text-align: center;
   font-size: 30px;
   line-height: 100px;
-  padding-bottom: 50px
+  padding-bottom: 75px;
 
 }
 .list li a {
@@ -30,9 +30,13 @@ nav{
   height: 70px;
   display:block;
 }
-.row{
+#Portfolio{
   color: white;
   display:flex;
+  flex-direction: column;
+}
+#header h1{
+  text-align: center;
 }
 /*.Portfolio{
   display:flex;
@@ -44,7 +48,10 @@ nav{
   text-align: center;*/
 
 }
-.Portfolio h1{
+#Portfolio h1{
+  text-align: center;
+}
+#Portfolio h3{
   text-align: center;
 }
 .column{
@@ -64,7 +71,7 @@ h2{
   text-align: center;
   display:flex;
 }
-.About {
+#About {
   color: white;
   background-color: #000000dc;
 }
