@@ -5,6 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
+    <meta name="viewport" content="width-device-width">
     <title>Portfolio|EstherKimani</title>
   </head>
   <body
@@ -12,7 +13,7 @@
       <nav>
         <ul class="list">
           <li><a href="#home">Home</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#row">Portfolio</a></li>
           <li><a href="#About">About Me</a></li>
           <li><a href="#Contact">Contact Me</a></li>
         </ul>
@@ -25,29 +26,40 @@
       <p>Software development is actually interesting when you get the hang of it.</p>
       <p>Believe it or not! Women are actually breaking the bias!</p>
 
-    </div>
-    <div class="Portfolio">
-      <div class="column"><h2> Akan Names</h2>
-        <p>This project takes a users birthday and gives the equivalent Akan Name.Here is
-        a link to the project <a href="https://estherkimani.github.io/akanNames/">Here you go!</a>
-        </p>
-      </div>
-
-      <div class="column"><h2>Portfolio</h2>
-        <p>If you are having a rough start with coding, take a look at my first project and be encouraged.
-        Ready, set, code!! <a href="https://estherkimani.github.io/portfolio/">Growth is gradual</a>
-        </p>
-      </div>
-
-
-      </p>
-
+    </div><br>
+    <div class="row">
+        <h1>Portfolio</h1>
+          <div class="column"><h3> Akan Names</h3>
+            <p>This project takes a users birthday and gives the equivalent Akan Name.Here is
+                  a link to the project <a href="https://estherkimani.github.io/akanNames/">Here you go!</a>
+            </p>
+          </div>
+          <div class="column"><h3>Portfolio</h3>
+            <p>If you are having a rough start with coding, take a look at my first project and be encouraged.
+              Ready, set, code!! <a href="https://estherkimani.github.io/portfolio/">Growth is gradual</a>
+            </p>
+          </div>
 
     </div>
     <div id="About">
+      <h1>About Me</h1>
+      <p>I am a very social person who can spark a conversation in any crowd. My personality helps me
+        adapt to different environments with ease. I am hardworking and work efficiently even under pressure
+        with minimum supervision. I exercise my leadership skills any time need arises.I thrive in teamwork as
+      well as focused groups. I have a number of hobbies which include:</p>
 
     </div>
     <div id="Contact">
+      <h1>Contact Me</h1>
+        <form class="contacts" action="index.html" method="post">
+          <label for=""></label><br>
+          <input type="text" name="name" class="input" placeholder="Enter your name" ><br>
+
+          <label for=""></label><br>
+          <input type="email" name="email" class="input" placeholder="Enter your email">
+
+          <input type="submit" name="Submit" value="">
+        </form>
 
     </div>
 
